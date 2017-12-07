@@ -1,7 +1,6 @@
 "use strict";
 
 var { defineSupportCode } = require("cucumber");
-//var until = require('selenium-webdriver').until;
 var { By, until, Key } = require("selenium-webdriver");
 var { expect } = require("chai");
 
@@ -30,15 +29,5 @@ defineSupportCode(function({ setDefaultTimeout, Given, When, Then }) {
       expect(results).to.not.be.above(1);
       next();
     });
-    // this.driver
-    //   .executeScript(function() {
-    //     return document.querySelector("#resultStats").innerHTML;
-    //   })
-    //   .then(function(innerHTML) {
-    //     var r = innerHTML.match(new RegExp("((.*) seconds)"));
-    //     if (r) var intResults = parseInt(r[1]);
-    //     expect(intResults).to.not.be.above(1);
-    //     next();
-    //   });
   });
 });
