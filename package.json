@@ -1,0 +1,17 @@
+{
+  "name": "currency-converter",
+  "version": "1.0.0",
+  "description": "Example using Selenium Webdriver and Cucumber JS",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "repository": "https://github.com/sherar/webdriver-cucumber-js",
+  "author": "Gerardo Prieto",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.1.1",
+    "chromedriver": "latest",
+    "cucumber": "2.3.1",
+    "selenium-webdriver": "latest"
+  }
+}
